@@ -83,7 +83,7 @@ if (!($day % 2)) {
 
 $a = 1;
 $b = 2;
-
+$i = 0;
 
 switch ($i){
    case 0:
