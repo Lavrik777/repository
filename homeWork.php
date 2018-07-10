@@ -7,7 +7,7 @@
  Date: 10.07.2018
  Time: 0:20
  */
-/*
+
 echo 'Hello World'. '</br>';
 
 // Задача 2
@@ -72,19 +72,38 @@ $g = true; //boolean
 
 echo '<pre>';
 var_dump($a, $b, $c, $d, $e, $f, $g);
-echo '</pre>'; */
+echo '</pre>';
 
 //Задача 7
 
+$a = 10;
+$b = 5;
+
+echo "$b из {$a}ти студентов посетили лекцию." . '</br>';
+echo '<html>' . $b . ' из ' . $a.'ти студентов посетили лекцию.' . '</html'; //способ из гугла если что-то не так, поправьте пожалуста )))
 
 
+//Задача 8
 
+$morning = 'Доброе утро';
+$ladies = ' дамы';
+$gantlemen = ' и господа';
 
+echo "$morning,$ladies$gantlemen";
 
+//Задача 10
 
+const MIN = 10;
+const MAX = 50;
+$x = 10;
 
-
-
+if ($x > MIN && $x < MAX) {
+    echo "+";
+} else if ($x == MIN || $x == MAX) {
+    echo "+-";
+}  else {
+    echo "-";
+}
 
 
 
