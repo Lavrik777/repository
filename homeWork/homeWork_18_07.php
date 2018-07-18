@@ -1,7 +1,7 @@
 <?php
 
 //Задача 1
-/*
+
 $user = 'С возвращением, дружище';
 $userNew = 'Привет, новичек';
 
@@ -12,13 +12,13 @@ if (isset($_COOKIE['visitOne'])) {
     setcookie('visitOne', 'cookie', time() + 36000);
     echo $userNew;
 }
-*/
+
 
 //Задача 2
 
 //$time = date("d.m.Y, H:i:s", time() + 60);
 //echo $time;
-/*
+
 if (isset($_COOKIE['visitTime'])){
     $visitTime = "Вы были последний раз {$_COOKIE['visitTime']}";
     setcookie('visitTime',date("d.m.Y, H:i:s"));
@@ -27,7 +27,7 @@ if (isset($_COOKIE['visitTime'])){
     setcookie('visitTime', date("d.m.Y, H:i:s"));
 }
 echo $visitTime;
-*/
+
 
 //Задача 3
 
