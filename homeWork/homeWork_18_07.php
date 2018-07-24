@@ -19,10 +19,10 @@ if (isset($_COOKIE['visitOne'])) {
 //$time = date("d.m.Y, H:i:s", time() + 60);
 //echo $time;
 
-if (isset($_COOKIE['visitTime'])){
+if (isset($_COOKIE['visitTime'])) {
     $visitTime = "Вы были последний раз {$_COOKIE['visitTime']}";
     setcookie('visitTime',date("d.m.Y, H:i:s"));
-}else {
+} else {
     $visitTime = "Привет! Ты здесь первый раз.";
     setcookie('visitTime', date("d.m.Y, H:i:s"));
 }
@@ -32,9 +32,9 @@ echo $visitTime;
 //Задача 3
 
 if(isset($_COOKIE['i'])){
-    setcookie('i', ++$_COOKIE['i']);
+    setcookie('i', ++$_COOKIE['i'], time()+ 60);
 }else{
-    setcookie('i', 1);
+    setcookie('i', 0);
 }
 echo "Вы посещали наш сайт {$_COOKIE['i']} раз";
 

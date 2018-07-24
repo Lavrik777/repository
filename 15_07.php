@@ -1,13 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Администратор
- * Date: 15.07.2018
- * Time: 10:06
- */
 
-
-/*
 $array = range(0,30);
 
 function myFun($array, $param = true){
@@ -16,7 +8,7 @@ function myFun($array, $param = true){
 
         }
 }
-echo myFun(); */
+echo myFun();
 
 //Cуперглобальные переменные
 
@@ -38,8 +30,8 @@ if(isset($_POST['send'])) {
     }
 }
 
-
 ?>
+
 
 
 <!doctype html>
@@ -64,26 +56,3 @@ if(isset($_POST['send'])) {
 
     </body>
 </html>
-
-
-
-<?php
-//Вопрос по домашке ДАТА
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
