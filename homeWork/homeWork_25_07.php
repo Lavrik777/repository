@@ -51,15 +51,15 @@ echo 'Задание №4' . '<hr size="1" color="grey">';
     echo '<hr size="5" color="grey">';
 
 echo 'Задание №5' . '<hr size="1" color="grey">';
-/*
+
 $array = range(0, 10000);
 foreach ($array as $value){
-    if ((($value % 5) != 0) && ((strpos($value, '3')) || (strpos($value, '33')) || (strpos($value, '333')))){
-        $result[] = $value;
-    }
+    if ((($value % 5) != 0) && ((strpos($value, '3') !==false){
+        $result[] = $value
+        }
 }
 print_r($result);
-*/
+
 echo '<hr size="5" color="grey">';
 
 echo 'Задание №6' . '<hr size="1" color="grey">';
