@@ -22,9 +22,9 @@ try {
 //    echo '</br>';
 
     $student = 0;
-    $sql = "SELECT * FROM student WHERE id > ?";
+    $sql = "SELECT * FROM student";
     $res = $pdo->prepare($sql);
-    $res->execute(array($student));
+    $res->execute();
     print_r($res->fetchAll(PDO::FETCH_ASSOC));
     echo '</br>';
 
